@@ -13,10 +13,10 @@ function Card({username = " Loyiso " , post = " Front end dev "}){
         </p>
       </blockquote>
       <figcaption className="font-medium">
-        
-        <div className="text-slate-700 dark:text-slate-500">
-       {post}
+        <div className="text-sky-500 dark:text-sky-400">
+         {username}
         </div>
+        
       </figcaption>
     </div>
   </figure>)
